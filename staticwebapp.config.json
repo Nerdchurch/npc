@@ -1,0 +1,15 @@
+{
+  "routes": [
+    {
+      "route": "/*",
+      "serve": "/NPC/index.html",
+      "statusCode": 200
+    }
+  ],
+  "navigationFallback": {
+    "rewrite": "/NPC/index.html"
+  },
+  "mimeTypes": {
+    ".json": "application/json"
+  }
+}
